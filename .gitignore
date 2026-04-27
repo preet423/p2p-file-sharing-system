@@ -1,0 +1,71 @@
+# ===========================
+#           GLOBAL
+# ===========================
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# ===========================
+#       FRONTEND (Next.js)
+# ===========================
+ui/.next/
+ui/node_modules/
+ui/out/
+ui/.turbo/
+ui/.vercel/
+ui/.swc/
+ui/.env
+ui/.env.local
+ui/.env.production
+ui/.env.development
+ui/npm-debug.log*
+ui/yarn-debug.log*
+ui/yarn-error.log*
+
+# Build result
+ui/build/
+
+# ===========================
+# BACKEND (Maven + Java)
+# ===========================
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven specific
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+.settings/
+.project
+.classpath
+
+# Temp upload dir
+filejunction-uploads/
+
+# IDE files
+# ---------------------------
+# VS Code
+.vscode/
+# IntelliJ / IDEA
+.idea/
+*.iml
+# Eclipse
+*.prefs
+
+# ===========================
+#     OPERATING SYSTEM
+# ===========================
+# macOS
+*.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
